@@ -2,11 +2,12 @@
   "name": "megala_portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "postinstall": "npm run build"
   },
   "author": "",
   "license": "ISC"
